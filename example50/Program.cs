@@ -27,25 +27,6 @@ void ArrayRandom(int[,] matrix)
             matrix[i, j] = new Random().Next(-10, 11);
     }
 }
-// void FindChar(int[,] matrix)
-// {
-//     Console.WriteLine("Введите координаты");
-//     int a = Convert.ToInt32(Console.ReadLine());
-//     int b = Convert.ToInt32(Console.ReadLine());
-
-//     for (int i = 0; i < matrix.GetLength(0); i++)
-//     {
-//         for (int j = 0; j < matrix.GetLength(1); j++)
-//             if (a > i && b > j)
-//         Console.WriteLine("такого числа нет");
-//     else
-//     {
-//         object c = matrix.GetValue(a, b);
-//         Console.WriteLine(c);
-//     }
-//     }
-
-// }
 Console.Clear();
 int i = new Random().Next(2, 5);
 int j = new Random().Next(2, 5);
